@@ -10,7 +10,8 @@ function Navbar() {
                 <Link to="/" className="navbar-logo">
                     <MdFingerprint
                      className="nav-icon"
-                    LAVAISH/>
+                    />
+                    LAVAISH
                 </Link>
                 <div className="menu-icon">
                     
