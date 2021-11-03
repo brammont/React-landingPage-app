@@ -18,7 +18,7 @@ function Navbar() {
           setButton(true);
         }
     };
-
+    window.addEventListener('resize', showButton);
     return (
         <>
             <IconContext.Provider value={{ color: '#fff' }}>
@@ -64,8 +64,8 @@ function Navbar() {
                                             Registrarse
                                         </Button>
                                     </Link>
-                        )}
-                    </li>
+                                    )}
+                            </li>
                         </ul>
                     </div>
                 </nav>  
