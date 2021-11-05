@@ -1,5 +1,5 @@
 import React from 'react'
-import './Services.css'
+
 function Services() {
     return (
         <div>
@@ -7,5 +7,5 @@ function Services() {
         </div>
     )
 }
-import './Services.css'
+
 export default Services

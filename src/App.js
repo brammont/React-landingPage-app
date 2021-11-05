@@ -7,6 +7,7 @@ import {BrowserRouter as Router,
 } from 'react-router-dom';
 import Footer from './components/pages/Footer/Footer';
 import Products from './components/pages/Productos/Products';
+import Services from './components/pages/Services/Services';
 function App() {
   return (
     <Router>
@@ -14,6 +15,7 @@ function App() {
       <Switch>
       <Route path='/' exact component={Home} />
       <Route path='/products' component={Products} />
+      <Route path='/products' component={Services} />
       </Switch>
       <Footer/>
     </Router>
