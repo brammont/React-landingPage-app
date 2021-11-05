@@ -6,12 +6,14 @@ import {BrowserRouter as Router,
   Switch,Route
 } from 'react-router-dom';
 import Footer from './components/pages/Footer/Footer';
+import Products from './components/pages/Productos/Products';
 function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
       <Route path='/' exact component={Home} />
+      <Route path='/products' component={Products} />
       </Switch>
       <Footer/>
     </Router>
