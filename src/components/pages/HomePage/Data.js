@@ -35,5 +35,18 @@ export const homeObjOne = {
     buttonLabel: 'Empezar ahora',
     imgStart: 'start',
     img: 'images/svg-7.svg',
-    alt: 'Vault'
+    alt: 'Bóveda'
+  };
+  export const homeObjFour = {
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'ANÁLISIS DE DATOS',
+    headline: 'Cada transacción se almacena en nuestra base de datos segura en la nube',
+    description:
+      'Nunca más tendrá que volver a preocuparse por los recibos guardados. Almacenamos sus datos para que pueda acceder a ellos en cualquier momento.',
+    buttonLabel: 'Regístrate ahora',
+    imgStart: 'start',
+    img: 'images/svg-8.svg',
+    alt: 'Bóveda'
   };
