@@ -24,3 +24,16 @@ export const homeObjOne = {
     img: 'images/svg-5.svg',
     alt: 'Bóveda'
   };
+  export const homeObjThree = {
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'FÁCIL CONFIGURACION',
+    headline: 'Proceso de incorporación superrápido y sencillo',
+    description:
+      "Tenga todo configurado y listo en menos de 10 minutos. Todo lo que necesita hacer es agregar su información y estará listo para comenzar.",
+    buttonLabel: 'Empezar ahora',
+    imgStart: 'start',
+    img: 'images/svg-7.svg',
+    alt: 'Vault'
+  };
