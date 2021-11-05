@@ -18,7 +18,16 @@ function Navbar() {
           setButton(true);
         }
     };
-    window.addEventListener('resize', showButton);
+    useEffect(() => {    
+        showButton();
+        window.addEventListener('resize', showButton);
+        // limpiar funcion
+        return () => {
+        // remover el evento expandir en la pantalla
+        window.removeEventListener('resize', showButton);
+      }
+    }, [])
+   
     return (
         <>
             <IconContext.Provider value={{ color: '#fff' }}>
@@ -35,7 +44,7 @@ function Navbar() {
                         </div>
                         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                             <li className="nav-item">
-                                <Link to="/" className="nav-links">
+                                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                                     Principal
                                 </Link>
                             </li>
